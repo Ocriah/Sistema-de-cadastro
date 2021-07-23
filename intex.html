@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1 class= 'titulo'> Sistema de cadastro</h1>
+<body>
+<div class= 'container1'>
+    <div class='card'>
+        <h1>Cadastrar Cliente</h1>
+
+        <form id=form>
+            <div class='label-float'>
+                <input type= 'text' name = 'nome' required id='nome' paceholder='' required>
+                <label for='nome'> Nome</label>
+            </div>
+            <div class='label-float'>
+                <input type= 'text' name = 'email' required id='email' paceholder='' required>
+                <label for='email'> E-mail</label>
+            </div>
+            <div class='label-float'>
+                <input type= 'text' name = 'nascimento' required id='nascimento' paceholder=''required>
+                <label for='nascimento'>Data de Nascimento</label>
+            </div>
+            <div class='label-float'>
+                <input type= 'text' name = 'telefone' required id='telefone' paceholder=''required>
+                <label for='telefone'> numero de Telefone</label>
+            </div>
+            <div class='label-float'>
+                <input type= 'text' name = 'endereco' required id='endereco' paceholder=''required>
+                <label for='endereco'> Endereço</label>
+            </div>
+
+            <div class="input-submit-container">
+                <input type = "submit" name = "acaoC" value = "Cadastrar">
+            </div>
+        </form>
+    </div>
+</div>
+<div class= 'container2'>
+    <div class='card'>
+        <h1>Cadastrar Produto</h1>
+
+        <form id=form2>
+            <div class='label-float'>
+                <input type= 'text' name = 'nomeP' required id='nomeP' paceholder='' required>
+                <label for='nomeP'> Nome</label>
+            </div>
+            <div class='label-float'>
+                <input type= 'text' name = 'tipo' required id='tipo' paceholder='' required>
+                <label for='tipo'> Tipo</label>
+            </div>
+            <div class='label-float'>
+                <input type= 'text' name = 'codigo' required id='codigo' paceholder=''required>
+                <label for='nascimento'>Código</label>
+            </div>
+            <div class='label-float'>
+                <input type= 'text' name = 'quantidade' required id='quantidade' paceholder=''required>
+                <label for='telefone'> Quantidade</label>
+            </div>
+            <div class='label-float'>
+                <input type= 'text' name = 'descricao' required id='descricao' paceholder=''required>
+                <label for='endereco'> descricao</label>
+            </div>
+
+            <div class="input-submit-container">
+                <input type = "submit" name = "acaoP" value = "Cadastrar">
+            </div>
+        </form2>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
